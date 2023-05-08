@@ -1,0 +1,9 @@
+{
+	"name": "niksom11datafactory",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5b7fce47-6a3a-4430-aa80-20ed1a85d01e",
+		"tenantId": "30a7733f-2f14-48be-aa54-fc33fce6bde9"
+	}
+}
