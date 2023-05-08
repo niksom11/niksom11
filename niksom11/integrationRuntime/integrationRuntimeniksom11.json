@@ -1,0 +1,6 @@
+{
+	"name": "integrationRuntimeniksom11",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
