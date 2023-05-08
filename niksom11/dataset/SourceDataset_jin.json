@@ -1,0 +1,33 @@
+{
+	"name": "SourceDataset_jin",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "Equity P&L",
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "angel.xlsx",
+				"container": "niksom11container"
+			}
+		},
+		"schema": [
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			}
+		]
+	}
+}
